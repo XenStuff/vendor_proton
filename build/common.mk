@@ -31,7 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/proton/build/etc/init/init.protonplus-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.protonplus-updater.rc
 
 endif
-
+# Pro ghaymer
+PRODUCT_PACKAGES += \
+    GameSpace
 # Use the default charger mode images
 PRODUCT_PACKAGES += \
     charger_res_images
